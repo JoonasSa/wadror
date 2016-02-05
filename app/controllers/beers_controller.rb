@@ -1,3 +1,4 @@
+
 class BeersController < ApplicationController
   before_action :set_beer, only: [:show, :edit, :update, :destroy]
 
@@ -14,9 +15,9 @@ class BeersController < ApplicationController
 
   # GET /beers/new
   def new
-   @beer = Beer.new
-   @breweries = Brewery.all
-   @styles = ["Weizen", "Lager", "Pale ale", "IPA", "Porter"]
+    @beer = Beer.new
+    @breweries = Brewery.all
+    @styles = ["Weizen", "Lager", "Pale ale", "IPA", "Porter"]
   end
 
   # GET /beers/1/edit
@@ -35,6 +36,8 @@ class BeersController < ApplicationController
         format.html { redirect_to beers_path, notice: 'Beer was successfully created.' }
         format.json { render :show, status: :created, location: @beer }
       else
+        @breweries = Brewery.all
+        @styles = ["Weizen", "Lager", "Pale ale", "IPA", "Porter"]
         format.html { render :new }
         format.json { render json: @beer.errors, status: :unprocessable_entity }
       end
