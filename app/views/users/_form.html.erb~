@@ -22,7 +22,7 @@
     </div>
   <% else %>
     <div class="field">
-      <%= f.label :new password %><br />
+      New <%= f.label :password %><br />
       <%= f.password_field :password %>
     </div>
   <% end %>

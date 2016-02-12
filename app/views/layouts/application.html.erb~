@@ -12,10 +12,12 @@
     <%= link_to 'beers', beers_path %>
     <%= link_to 'ratings', ratings_path %>
 	<%= link_to 'users', users_path %>
+	<%= link_to 'clubs', beerclubs_path %>
     |
 	<% if not current_user.nil? %>
       <%= link_to current_user.username, user_path(current_user) %>
       <%= link_to 'rate a beer', new_rating_path %>
+	  <%= link_to 'join a club', beerclubs_path %>
       <%= link_to 'signout', session_path, method: :delete, data: { confirm: 'Are you sure?' } %>
     <% else %>
       <%= link_to 'signin', new_session_path %>
