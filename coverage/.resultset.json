@@ -1,8 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/home/ad/fshome5/u5/s/sarapajo/Linux/Rubiini/ratebeer/app/models/rating.rb": [
-        null,
+      "/Users/mluukkai/kurssirepot/ratebeer/app/models/rating.rb": [
         1,
         1,
         null,
@@ -16,38 +15,42 @@
         null,
         null
       ],
-      "/home/ad/fshome5/u5/s/sarapajo/Linux/Rubiini/ratebeer/app/helpers/application_helper.rb": [
+      "/Users/mluukkai/kurssirepot/ratebeer/app/helpers/application_helper.rb": [
         1,
         null
       ],
-      "/home/ad/fshome5/u5/s/sarapajo/Linux/Rubiini/ratebeer/app/helpers/beer_clubs_helper.rb": [
+      "/Users/mluukkai/kurssirepot/ratebeer/app/helpers/beer_clubs_helper.rb": [
         1,
         null
       ],
-      "/home/ad/fshome5/u5/s/sarapajo/Linux/Rubiini/ratebeer/app/helpers/beers_helper.rb": [
+      "/Users/mluukkai/kurssirepot/ratebeer/app/helpers/beers_helper.rb": [
         1,
         null
       ],
-      "/home/ad/fshome5/u5/s/sarapajo/Linux/Rubiini/ratebeer/app/helpers/breweries_helper.rb": [
+      "/Users/mluukkai/kurssirepot/ratebeer/app/helpers/breweries_helper.rb": [
         1,
         null
       ],
-      "/home/ad/fshome5/u5/s/sarapajo/Linux/Rubiini/ratebeer/app/helpers/memberships_helper.rb": [
+      "/Users/mluukkai/kurssirepot/ratebeer/app/helpers/memberships_helper.rb": [
         1,
         null
       ],
-      "/home/ad/fshome5/u5/s/sarapajo/Linux/Rubiini/ratebeer/app/helpers/users_helper.rb": [
+      "/Users/mluukkai/kurssirepot/ratebeer/app/helpers/styles_helper.rb": [
         1,
         null
       ],
-      "/home/ad/fshome5/u5/s/sarapajo/Linux/Rubiini/ratebeer/app/models/beer.rb": [
+      "/Users/mluukkai/kurssirepot/ratebeer/app/helpers/users_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/mluukkai/kurssirepot/ratebeer/app/models/beer.rb": [
+        1,
+        1,
         null,
         1,
         1,
         null,
         1,
-        1,
-        null,
         1,
         1,
         1,
@@ -57,7 +60,7 @@
         null,
         null
       ],
-      "/home/ad/fshome5/u5/s/sarapajo/Linux/Rubiini/ratebeer/app/models/concerns/rating_average.rb": [
+      "/Users/mluukkai/kurssirepot/ratebeer/app/models/concerns/rating_average.rb": [
         1,
         1,
         null,
@@ -66,7 +69,7 @@
         null,
         null
       ],
-      "/home/ad/fshome5/u5/s/sarapajo/Linux/Rubiini/ratebeer/app/models/brewery.rb": [
+      "/Users/mluukkai/kurssirepot/ratebeer/app/models/brewery.rb": [
         1,
         1,
         null,
@@ -75,9 +78,10 @@
         null,
         1,
         1,
+        null,
         null
       ],
-      "/home/ad/fshome5/u5/s/sarapajo/Linux/Rubiini/ratebeer/app/models/user.rb": [
+      "/Users/mluukkai/kurssirepot/ratebeer/app/models/user.rb": [
         1,
         1,
         null,
@@ -104,35 +108,23 @@
         null,
         1,
         9,
-        9,
-        46,
-        9,
-        14,
-        14,
-        11,
-        11,
         null,
-        null,
-        9,
-        null,
-        null,
-        1,
-        102,
-        14,
+        44,
+        25,
         null,
         null,
         1,
         9,
-        9,
-        46,
-        9,
-        12,
-        12,
-        11,
-        11,
+        null,
+        44,
+        20,
         null,
         null,
-        9,
+        1,
+        null,
+        1,
+        113,
+        17,
         null,
         null,
         1,
@@ -141,10 +133,14 @@
         null,
         null
       ],
-      "/home/ad/fshome5/u5/s/sarapajo/Linux/Rubiini/ratebeer/app/controllers/sessions_controller.rb": [
+      "/Users/mluukkai/kurssirepot/ratebeer/app/models/style.rb": [
         1,
         1,
-        null,
+        null
+      ],
+      "/Users/mluukkai/kurssirepot/ratebeer/app/controllers/sessions_controller.rb": [
+        1,
+        1,
         null,
         null,
         1,
@@ -158,26 +154,22 @@
         null,
         null,
         1,
-        null,
         0,
-        null,
         0,
         null,
         null
       ],
-      "/home/ad/fshome5/u5/s/sarapajo/Linux/Rubiini/ratebeer/app/controllers/application_controller.rb": [
-        1,
-        null,
-        null,
-        null,
+      "/Users/mluukkai/kurssirepot/ratebeer/app/controllers/application_controller.rb": [
         1,
         null,
         null,
         1,
         null,
         1,
-        123,
-        81,
+        null,
+        1,
+        128,
+        79,
         null,
         null,
         1,
@@ -185,7 +177,7 @@
         null,
         null
       ],
-      "/home/ad/fshome5/u5/s/sarapajo/Linux/Rubiini/ratebeer/app/controllers/users_controller.rb": [
+      "/Users/mluukkai/kurssirepot/ratebeer/app/controllers/users_controller.rb": [
         1,
         1,
         null,
@@ -244,7 +236,7 @@
         1,
         0,
         0,
-        0,
+        null,
         null,
         0,
         0,
@@ -264,21 +256,19 @@
         null,
         null
       ],
-      "/home/ad/fshome5/u5/s/sarapajo/Linux/Rubiini/ratebeer/app/models/membership.rb": [
+      "/Users/mluukkai/kurssirepot/ratebeer/app/models/membership.rb": [
         1,
         1,
         1,
         null
       ],
-      "/home/ad/fshome5/u5/s/sarapajo/Linux/Rubiini/ratebeer/app/models/beer_club.rb": [
+      "/Users/mluukkai/kurssirepot/ratebeer/app/models/beer_club.rb": [
         1,
         1,
         1,
         null
       ],
-      "/home/ad/fshome5/u5/s/sarapajo/Linux/Rubiini/ratebeer/app/controllers/beers_controller.rb": [
-        null,
-        1,
+      "/Users/mluukkai/kurssirepot/ratebeer/app/controllers/beers_controller.rb": [
         1,
         1,
         1,
@@ -292,26 +282,28 @@
         null,
         null,
         1,
+        0,
+        0,
+        null,
+        null,
+        null,
+        1,
+        2,
+        2,
+        2,
+        null,
+        null,
+        null,
+        1,
+        0,
+        0,
+        null,
         null,
         null,
         null,
         1,
         2,
         null,
-        null,
-        null,
-        null,
-        null,
-        1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        1,
-        2,
-        null,
         2,
         2,
         2,
@@ -353,11 +345,6 @@
         null,
         1,
         0,
-        null,
-        null,
-        1,
-        2,
-        2,
         null,
         null,
         null,
@@ -366,7 +353,7 @@
         null,
         null
       ],
-      "/home/ad/fshome5/u5/s/sarapajo/Linux/Rubiini/ratebeer/app/controllers/breweries_controller.rb": [
+      "/Users/mluukkai/kurssirepot/ratebeer/app/controllers/breweries_controller.rb": [
         1,
         1,
         1,
@@ -433,7 +420,6 @@
         null,
         1,
         null,
-        null,
         1,
         1,
         null,
@@ -444,47 +430,63 @@
         null,
         null
       ],
-      "/home/ad/fshome5/u5/s/sarapajo/Linux/Rubiini/ratebeer/lib/beermapping_api.rb": [
+      "/Users/mluukkai/kurssirepot/ratebeer/lib/beermapping_api.rb": [
         1,
         1,
         5,
-        8,
+        9,
+        null,
+        null,
+        1,
+        0,
+        0,
         null,
         null,
         1,
         null,
         1,
-        3,
-        null,
-        3,
-        3,
-        null,
-        3,
-        null,
-        2,
-        2,
         4,
         null,
+        4,
+        4,
+        null,
+        4,
+        null,
+        3,
+        3,
+        5,
+        null,
         null,
         null,
         1,
-        3,
+        4,
+        4,
         null,
         null
       ],
-      "/home/ad/fshome5/u5/s/sarapajo/Linux/Rubiini/ratebeer/app/models/place.rb": [
+      "/Users/mluukkai/kurssirepot/ratebeer/app/models/place.rb": [
         1,
         1,
+        null,
         1,
         null,
         1,
         6,
         null,
+        null,
+        1,
+        0,
+        0,
+        null,
         null
       ],
-      "/home/ad/fshome5/u5/s/sarapajo/Linux/Rubiini/ratebeer/app/controllers/places_controller.rb": [
+      "/Users/mluukkai/kurssirepot/ratebeer/app/controllers/places_controller.rb": [
         1,
         1,
+        null,
+        null,
+        1,
+        0,
         null,
         null,
         1,
@@ -493,12 +495,12 @@
         1,
         null,
         2,
+        2,
         null,
         null,
         null
       ],
-      "/home/ad/fshome5/u5/s/sarapajo/Linux/Rubiini/ratebeer/app/controllers/ratings_controller.rb": [
-        null,
+      "/Users/mluukkai/kurssirepot/ratebeer/app/controllers/ratings_controller.rb": [
         1,
         1,
         1,
@@ -512,8 +514,6 @@
         1,
         1,
         null,
-        1,
-        0,
         1,
         1,
         1,
@@ -530,7 +530,14 @@
         null,
         null
       ],
-      "/home/ad/fshome5/u5/s/sarapajo/Linux/Rubiini/ratebeer/app/controllers/memberships_controller.rb": [
+      "/Users/mluukkai/kurssirepot/ratebeer/app/controllers/beer_clubs_controller.rb": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
         0,
         0,
         0,
@@ -606,8 +613,83 @@
         0,
         0
       ],
-      "/home/ad/fshome5/u5/s/sarapajo/Linux/Rubiini/ratebeer/app/controllers/beer_clubs_controller.rb": [
+      "/Users/mluukkai/kurssirepot/ratebeer/app/controllers/memberships_controller.rb": [
         0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "/Users/mluukkai/kurssirepot/ratebeer/app/controllers/styles_controller.rb": [
         0,
         0,
         0,
@@ -684,6 +766,6 @@
         0
       ]
     },
-    "timestamp": 1455878919
+    "timestamp": 1455031395
   }
 }

@@ -1,4 +1,3 @@
-
 module Helpers
   def sign_in(credentials)
     visit signin_path

@@ -1,27 +1,21 @@
 <p id="notice"><%= notice %></p>
 
-<%= @beer %>
-
-<p>
-  <strong>Name:</strong>
-  <%= @beer.name %>
-</p>
-
+<h2><%= @beer.name %></h2>
 <p>
   <strong>Style:</strong>
-  <%= @beer.style %>
+  <%= link_to @beer.style.name, @beer.style %>
 </p>
 
 <p>
   <strong>Brewery:</strong>
-  <%= @beer.brewery.name %>
+  <%= link_to @beer.brewery.name, @beer.brewery %>
 </p>
 
 <p>
   <% if @beer.ratings.empty? %>
     beer has not yet been rated!
   <% else %>
-    beer has <%= pluralize(@beer.ratings.count, 'rating') %>, average <%= @beer.average_rating %>
+    beer has <%= pluralize(@beer.ratings.count, 'rating') %>, average <%= round(@beer.average_rating) %>
   <% end %>
 </p>
 
@@ -35,6 +29,6 @@
     <%= f.submit %>
   <% end %>
 
-  <%= link_to 'Edit', edit_beer_path(@beer) %>
-
 <% end %>
+
+<%= edit_and_destroy_buttons(@beer) %>

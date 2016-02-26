@@ -8,6 +8,12 @@
   Has made <%= pluralize(@user.ratings.count, 'rating') %>
 </p>
 
+<% if @user.ratings.any? %>
+  <p>Favorite style <%= @user.favorite_style.name %></p>
+
+  <p>Favorite brewery <%= @user.favorite_brewery.name %></p>
+<% end %>
+
 <% if @user.beer_clubs.any? %>
   <p>
     Member of
@@ -19,26 +25,22 @@
   <p>No club memberships</p>
 <% end %>
 
-<% if not @user.ratings.empty? %>
-	<p>Favorite beer style: <%= @user.favorite_style %></p>
-<% end %>
-
-<% if not @user.ratings.empty? %>
-	<p>Favorite brewery: <%= @user.favorite_brewery %></p>
-<% end %>
-
 <ul>
   <% @user.ratings.each do |rating| %>
     <li>
       <%= rating %>
       <% if @user == current_user %>
-        <%= link_to 'delete', rating, method: :delete, data: { confirm: 'Are you sure?' } %>
+        <%= link_to 'delete', rating, method: :delete, class:"btn btn-danger" %>
       <% end %>
     </li>
   <% end %>
 </ul>
 
 <% if @user == current_user %>
-  <%= link_to 'Delete account', @user, method: :delete, data: { confirm: 'Are you sure?' } %>
-  <%= link_to 'Edit', edit_user_path(@user) %>
+  <%= link_to 'Edit', edit_user_path(@user), class:"btn btn-primary" %>
+  <%= link_to 'Delete account', @user, method: :delete, class:"btn btn-danger" %>
+<% end %>
+
+<% if is_admin? %>
+  <%= link_to 'Change banned user', banned_path(@user), class:"btn btn-primary" %>
 <% end %>

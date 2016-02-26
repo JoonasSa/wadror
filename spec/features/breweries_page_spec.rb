@@ -33,5 +33,4 @@ describe "Breweries page" do
     end
 
   end
-
 end

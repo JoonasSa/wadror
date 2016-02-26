@@ -1,10 +1,18 @@
 source 'https://rubygems.org'
 
+ruby '2.3.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5'
 # Use sqlite3 as the database for Active Record
-#gem 'sqlite3'
+group :development, :test do
+  gem 'sqlite3'
+end
+
+group :production do
+   gem 'pg'
+   gem 'rails_12factor'
+end
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -32,13 +40,19 @@ gem 'bcrypt', '~> 3.1.7'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
-gem 'httparty'
-
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
-  gem "better_errors" 
 end
+
+group :test do
+  gem 'factory_girl_rails'
+  gem 'capybara'
+  gem 'launchy'
+  gem 'webmock'
+end
+
+gem 'simplecov', require: false
 
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> in views
@@ -48,25 +62,13 @@ group :development do
   gem 'spring'
 end
 
-group :development, :test do
-  gem 'sqlite3'
+gem 'bootstrap-sass'
+group :development do
+  gem 'rails_layout'
 end
 
 group :development, :test do
   gem 'rspec-rails', '~> 3.0'
 end
 
-group :test do
-  gem 'factory_girl_rails'
-  gem 'capybara'
-  gem 'launchy'
-  gem 'simplecov', require: false
-  gem 'webmock'
-end
-
-group :production do
-   gem 'pg'
-   gem 'rails_12factor'
-end
-
-ruby '2.3.0'
+gem 'httparty'
