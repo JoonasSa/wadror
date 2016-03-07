@@ -1,0 +1,565 @@
+o: ActiveSupport::Cache::Entry:@valueI"ÿ2
+<h2>Active</h2>
+
+<p> Number of active breweries: 103 </p>
+
+<table class="table table-hover">
+  <thead>
+    <tr>
+      <th> <a href="/breweries?order=name">Name</a> </th>
+      <th> <a href="/breweries?order=year">Year</a> </th>
+    </tr>
+  </thead>
+
+
+  <tbody>
+      <tr>
+        <td><a href="/breweries/1">ManilaButtNaked</a></td>
+        <td>1950</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/2">DunkeyKong</a></td>
+        <td>1960</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/5">Wunderbaum</a></td>
+        <td>1999</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/6">Brewery_1</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/7">Brewery_2</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/8">Brewery_3</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/9">Brewery_4</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/10">Brewery_5</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/11">Brewery_6</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/12">Brewery_7</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/13">Brewery_8</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/14">Brewery_9</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/15">Brewery_10</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/16">Brewery_11</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/17">Brewery_12</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/18">Brewery_13</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/19">Brewery_14</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/20">Brewery_15</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/21">Brewery_16</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/22">Brewery_17</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/23">Brewery_18</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/24">Brewery_19</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/25">Brewery_20</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/26">Brewery_21</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/27">Brewery_22</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/28">Brewery_23</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/29">Brewery_24</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/30">Brewery_25</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/31">Brewery_26</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/32">Brewery_27</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/33">Brewery_28</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/34">Brewery_29</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/35">Brewery_30</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/36">Brewery_31</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/37">Brewery_32</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/38">Brewery_33</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/39">Brewery_34</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/40">Brewery_35</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/41">Brewery_36</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/42">Brewery_37</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/43">Brewery_38</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/44">Brewery_39</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/45">Brewery_40</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/46">Brewery_41</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/47">Brewery_42</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/48">Brewery_43</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/49">Brewery_44</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/50">Brewery_45</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/51">Brewery_46</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/52">Brewery_47</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/53">Brewery_48</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/54">Brewery_49</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/55">Brewery_50</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/56">Brewery_51</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/57">Brewery_52</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/58">Brewery_53</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/59">Brewery_54</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/60">Brewery_55</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/61">Brewery_56</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/62">Brewery_57</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/63">Brewery_58</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/64">Brewery_59</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/65">Brewery_60</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/66">Brewery_61</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/67">Brewery_62</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/68">Brewery_63</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/69">Brewery_64</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/70">Brewery_65</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/71">Brewery_66</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/72">Brewery_67</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/73">Brewery_68</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/74">Brewery_69</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/75">Brewery_70</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/76">Brewery_71</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/77">Brewery_72</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/78">Brewery_73</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/79">Brewery_74</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/80">Brewery_75</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/81">Brewery_76</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/82">Brewery_77</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/83">Brewery_78</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/84">Brewery_79</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/85">Brewery_80</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/86">Brewery_81</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/87">Brewery_82</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/88">Brewery_83</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/89">Brewery_84</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/90">Brewery_85</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/91">Brewery_86</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/92">Brewery_87</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/93">Brewery_88</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/94">Brewery_89</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/95">Brewery_90</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/96">Brewery_91</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/97">Brewery_92</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/98">Brewery_93</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/99">Brewery_94</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/100">Brewery_95</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/101">Brewery_96</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/102">Brewery_97</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/103">Brewery_98</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/104">Brewery_99</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/105">Brewery_100</a></td>
+        <td>1900</td>
+        <td></td>
+      </tr>
+  </tbody>
+</table>
+
+
+<h2>Retired</h2>
+
+<p> Number of retired breweries: 2 </p>
+
+<table class="table table-hover">
+  <thead>
+    <tr>
+      <th> <a href="/breweries?order=name">Name</a> </th>
+      <th> <a href="/breweries?order=year">Year</a> </th>
+    </tr>
+  </thead>
+
+
+  <tbody>
+      <tr>
+        <td><a href="/breweries/3">Panettamo</a></td>
+        <td>1969</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="/breweries/4">Koff</a></td>
+        <td>1970</td>
+        <td></td>
+      </tr>
+  </tbody>
+</table>
+
+
+<br>
+
+:ET:@created_atf1457353419.2071617:@expires_in0

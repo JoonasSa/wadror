@@ -1,5 +1,0 @@
-<h1>Join to a beer club</h1>
-
-<%= render 'form' %>
-
-<%= link_to 'Back', memberships_path %>

@@ -1,0 +1,14 @@
+o: ActiveSupport::Cache::Entry:@valueI"Ë
+    <h2>
+      Tastebeer
+    </h2>
+
+    <p>
+      <a href="/styles/1">Bratwurst</a>
+      brewed by
+      <a href="/breweries/1">ManilaButtNaked</a>
+    </p>
+
+        <p>Has 1 rating, average 9.0 </p>
+
+:ET:@created_atf1457355377.4027393:@expires_in0

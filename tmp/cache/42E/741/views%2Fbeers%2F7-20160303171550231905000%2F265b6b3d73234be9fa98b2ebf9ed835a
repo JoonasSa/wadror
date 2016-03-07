@@ -1,0 +1,14 @@
+o: ActiveSupport::Cache::Entry:@valueI"È
+    <h2>
+      Beer 1 -- 1
+    </h2>
+
+    <p>
+      <a href="/styles/5">Bulk</a>
+      brewed by
+      <a href="/breweries/1">ManilaButtNaked</a>
+    </p>
+
+        <p>Has 1 rating, average 9.0 </p>
+
+:ET:@created_atf1457355362.3468266:@expires_in0

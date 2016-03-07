@@ -1,10 +1,10 @@
 class UsersController < ApplicationController
-  before_action :set_user, only: [:show, :edit, :update, :destroy, :banned]
+  before_action :set_user, only: [:show, :edit, :update, :destroy]
 
   # GET /users
   # GET /users.json
   def index
-    @users = User.all
+    @users = User.includes(:beers, :ratings).all
   end
 
   # GET /users/1
@@ -56,7 +56,7 @@ class UsersController < ApplicationController
   def destroy
     if current_user == @user
       @user.destroy
-      session[:user_id] = nil
+      #session[:user_id] = nil
     end
     respond_to do |format|
       format.html { redirect_to users_url, notice: 'User was successfully destroyed.' }
@@ -64,14 +64,13 @@ class UsersController < ApplicationController
     end
   end
 
-  def banned
-    if @user.banned == nil or @user.banned == true
-	  @user.banned = false
-	  redirect_to current_user
-    else
-      @user.banned = true
-      redirect_to current_user
-    end
+  def toggle_lock
+    user = User.find(params[:id])
+    user.update_attribute :locked, (not user.locked)
+
+    new_status = user.locked? ? "unlocked" : "locked"
+
+    redirect_to :back, notice:"user account #{new_status}"
   end
 
   private

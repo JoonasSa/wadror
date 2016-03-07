@@ -1,4 +1,0 @@
-class AddBannedToUser < ActiveRecord::Migration
-  def change
-  end
-end

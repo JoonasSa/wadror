@@ -50,6 +50,7 @@ group :test do
   gem 'capybara'
   gem 'launchy'
   gem 'webmock'
+  gem 'database_cleaner'
 end
 
 gem 'simplecov', require: false
@@ -71,4 +72,7 @@ group :development, :test do
   gem 'rspec-rails', '~> 3.0'
 end
 
+gem 'rack-mini-profiler'
+gem 'selenium-webdriver'
+gem 'jquery-turbolinks'
 gem 'httparty'
