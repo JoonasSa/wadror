@@ -1,6 +1,3 @@
-Heroku linkki: https://vast-tor-55987.herokuapp.com/breweries
+Ruby on Rails school project.
 
-[![Build Status](https://travis-ci.org/JoonasSa/wadror.png)](https://travis-ci.org/JoonasSa/wadror.png)
-
-[![Code Climate](https://codeclimate.com/github/JoonasSa/wadror.png)](https://codeclimate.com/github/JoonasSa/wadror)
-
+Heroku link: https://vast-tor-55987.herokuapp.com/breweries
